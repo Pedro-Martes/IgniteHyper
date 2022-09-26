@@ -2,6 +2,7 @@
   "name": "01-fundamentos-typescript",
   "private": true,
   "version": "0.0.0",
+  "homepage": "IgniteHyper/",
   "type": "module",
   "scripts": {
     "dev": "vite",
