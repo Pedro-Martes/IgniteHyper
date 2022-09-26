@@ -37,7 +37,7 @@ export function Post({ author, publishAt, content }:postProps) {
     });
 
     const [comments, setComments] = useState([
-        'opa, falae ae'
+        'Incrível !'
     ])
 
     const [newCommentText, setNewCommentText] = useState('');

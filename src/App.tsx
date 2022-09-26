@@ -18,7 +18,7 @@ export function App() {
     content: [
       { type: 'paragraph', content: 'Fala galera ✌', },
       { type: 'paragraph', content: 'Acabei de subir mais um projeto incriver no gih hub!' },
-      { type: 'link', content: 'jane.design/doctorcare' }
+      { type: 'link', content: 'github.com/Pedro-Matos678/IgniteHyper' }
 
     ],
     publishAt: new Date('2022-05-10 20:00:00')
@@ -32,9 +32,9 @@ export function App() {
       role: 'CEO Microsoft'
     },
     content: [
-      { type: 'paragraph', content: 'Eai rapaziada, tio gates aqui', },
-      { type: 'paragraph', content: 'Hoje tem jogo do mengo, segu o link' },
-      { type: 'link', content: 'jane.design/doctorcare' }
+      { type: 'paragraph', content: 'I love learning about the brain. Here"s cool research on the brain"s GPS.', },
+      { type: 'paragraph', content: 'Check this link' },
+      { type: 'link', content: 'https://t.co/xTfACQo6T8' }
 
     ],
     publishAt: new Date('2022-08-22 20:00:00')
@@ -53,16 +53,13 @@ export function App() {
 
         <main>
           {post.map(post => {
-            return(
-            <Post
-            key={post.id}
-            author={post.author}
-            content={post.content}
-            publishAt={post.publishAt}
-
-            />
+            return (
+              <Post
+                key={post.id}
+                author={post.author}
+                content={post.content}
+                publishAt={post.publishAt} />
             )
-
           }
           )
           }

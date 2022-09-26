@@ -19,7 +19,7 @@ export function Sidebar(){
             </div>
 
             <footer>
-                <a href='#'>
+                <a href='https://www.linkedin.com/in/pedro-matos-a25199193/'>
                     <GithubLogo
                     size={20}
                     />
