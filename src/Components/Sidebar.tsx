@@ -11,7 +11,7 @@ export function Sidebar(){
             className={style.cover}
             ></img>
             <div className={style.profile}>
-               <Avatar src='https://github.com/Pedro-Matos678.png'/>
+               <Avatar src='https://github.com/Pedro-Martes.png'/>
                 <strong>
                     Pedro Matos
                 </strong>
