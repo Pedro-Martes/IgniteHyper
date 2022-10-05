@@ -39,11 +39,7 @@ export function App() {
     ],
     publishAt: new Date('2022-08-22 20:00:00')
   },
-
-
-
   ]
-
   return (
     <div>
       <Header />
